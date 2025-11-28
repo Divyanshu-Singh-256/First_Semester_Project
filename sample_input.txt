@@ -1,0 +1,40 @@
+# Sample test inputs for Typing Speed Tester
+# Each block represents a user session: selected text, time taken, and typed text.
+
+Test Case 1 - Perfect typing (Text 1)
+TEXT_CHOICE: 1
+TIME_TAKEN_SECONDS: 25
+USER_INPUT:
+The quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet and is often used for typing practice. Typing speed is an essential skill in today's digital world.
+
+---
+
+Test Case 2 - Few mistakes (Text 2)
+TEXT_CHOICE: 2
+TIME_TAKEN_SECONDS: 40
+USER_INPUT:
+Programming is the art of telling another human what you want the computer to do. It requires patiense, creativity, and logical thinking. Practice makes perfect, and every line of code you write brings you closer to mastery.
+
+---
+
+Test Case 3 - Incomplete text (Text 3)
+TEXT_CHOICE: 3
+TIME_TAKEN_SECONDS: 30
+USER_INPUT:
+The internet has revolutionized the way we communicate and share information. With just a few clicks, we can access knowledge from around the world.
+
+---
+
+Test Case 4 - Very slow and inaccurate (Text 1)
+TEXT_CHOICE: 1
+TIME_TAKEN_SECONDS: 90
+USER_INPUT:
+The quick brown fox jumps over the lazy dog. This sentnce contans evry leter of the alfabet and is oftn used for typing practice. Typing speed is an esential skil in todays digital world.
+
+---
+
+Test Case 5 - Fast but inaccurate (Text 2)
+TEXT_CHOICE: 2
+TIME_TAKEN_SECONDS: 20
+USER_INPUT:
+Programming is art of telling another human what you want computer do. It require patience creativity logical thinking. Practice makes perfect every line of code you write brings you closer mastery.
