@@ -1,0 +1,1 @@
+//this is a header file for typing speed tester program as it is mandated to have a header file in the project structure
